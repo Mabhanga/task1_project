@@ -1,0 +1,39 @@
+        body {
+            background-image: url('picture.jpg'); /* Background image */
+            background-color: #f0f0f0; /* Grey background color as fallback */
+            background-size: cover; /* Cover the entire viewport */
+            background-position: center; /* Center the background image */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ffffff; /* White background color for header */
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        section {
+            background-color: rgba(255, 255, 255, 0.9); /* White background color with opacity for sections */
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 800px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for sections */
+        }
+
+        img {
+            width: 150px; /* Adjust the image width as needed */
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto 20px; /* Center the image and add bottom margin */
+        }
+
+        h1 {
+            margin-top: 0;
+        }
+
+        h2 {
+            margin-top: 0;
+        }
